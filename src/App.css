@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+i {
+  font-size: 20px;
+  color: blue;
+}
+.App {
+  min-height: 100vh;
+  min-height: 100vh;
+  padding: 0;
+  background-image: url('./assets/img/clima.jpg');
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading {
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vh;
+  background-image: url('./assets/gif/3WyW.gif');
+  background-size: contain;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+.card {
+  width: min(400px, 75%);
+  box-shadow: 7px, 7px, 7px, 7px black;
+}
+
+.weatherApp {
+  text-align: center;
+  color: #f9f8ff;
+}
+
+.city {
+  text-align: center;
+  font-size: 19px;
+  color: #f9f8ff;
+
+}
+
+.container {
+  width: min(400px, 100%);
+  background-color: #51c5f348;
+  border-radius: 10px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 17px;
+  color: #f9f8ff;
+}
+
+.temperature {
+  text-align: center;
+}
+
+.changeButton {
+  margin-bottom: 15px;
+  background-color: blue;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
